@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        .divOz{
+            width: 400px;
+            background-color: rgb(126, 188, 167);
+        }
+    </style>
+</head>
+<body>
+    <div class="divOz">
+        <form>
+            <table>
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" placeholder="name"></td>
+                </tr>
+                <tr>
+                    <td>Surname:</td>
+                    <td><input type="text" placeholder="surname"></td>
+                </tr>
+                <tr>
+                    <td>Email Adress:</td>
+                    <td><input type="email" placeholder="email"></td>
+                </tr>
+                <tr>
+                    <td>Phone Number</td>
+                    <td><input type="number" placeholder="your phone number"></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password" placeholder="password"></td>
+                </tr>
+
+            </table>
+            <label for="gender">Gender</label>
+            <select name="Choose" id="gender">
+                <option value="Woman">Woman</option>
+              <option value="Man">Man</option>
+              <option value="Other">Other</option>
+            </select>
+            <tr> <br>
+                <td>Birthdate</td>
+                <td><input type="date" name="" id=""></td>
+            </tr><br>
+
+            <tr>
+                <td>Hobbies</td>
+                <td><textarea name="Hobbies" id cols="30" rows="10" ></textarea></td>
+            </tr><br>
+
+            <tr>
+                <label for="file">Choose a File</label>
+                <td><input type="file" id="file" name="Choose a File" ></td>
+            </tr><br>
+            <tr>
+                <td colspan="2">
+                <textarea name="YourMessage" cols="30" rows="10" placeholder="Your Message"></textarea></td>
+            </tr><br>
+            <tr>
+                <td>Agree, I accept.<input type="radio" name="dealingRadio"></td>
+            </tr><br>
+            <tr>
+                <td>Disagree, I don't. <input type="radio" name="dealingRadio" > </td>
+            </tr><br>
+            <tr>
+                <td colspan="2"><input type="submit" value="Send"><input type="submit" value="Clear"></td><br>
+            </tr>
+        </form>
+    </div>
+    
+</body>
+</html>
